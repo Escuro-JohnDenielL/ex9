@@ -54,6 +54,14 @@ li {
   width: 100%;
 }
 
+.comment-text {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.comment,
 .testimonials-list {
   display: flex;
   justify-content: center;
@@ -83,6 +91,22 @@ li {
   object-fit: cover;
   border-radius: 20px;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+}
+
+.classes-text {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.classes-list {
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  margin: 0 auto;
+  margin-bottom: 50x;
 }
 
 .form-container {
@@ -241,4 +265,5 @@ textarea:focus {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-bottom: 50px;
 }
